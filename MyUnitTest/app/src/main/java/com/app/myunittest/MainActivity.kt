@@ -65,14 +65,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-    private fun gone() {
+    fun gone() {
         binding.btnCalculateVolume.visibility = View.GONE
         binding.btnCalculateCircumference.visibility = View.GONE
         binding.btnCalculateSurfaceArea.visibility = View.GONE
         binding.btnSave.visibility = View.VISIBLE
     }
 
-    private fun visible() {
+    fun visible() {
         binding.btnCalculateVolume.visibility = View.VISIBLE
         binding.btnCalculateCircumference.visibility = View.VISIBLE
         binding.btnCalculateSurfaceArea.visibility = View.VISIBLE

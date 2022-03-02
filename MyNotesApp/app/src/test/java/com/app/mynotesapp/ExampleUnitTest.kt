@@ -1,4 +1,4 @@
-package com.app.myunittest
+package com.app.mynotesapp
 
 import org.junit.Test
 
